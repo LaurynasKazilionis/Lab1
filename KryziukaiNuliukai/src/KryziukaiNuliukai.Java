@@ -72,7 +72,7 @@ public class KryziukaiNuliukai extends javax.swing.JFrame {
         }
         
         else if(mygtukuIlgis() == 9 && win == false){
-            jLabelMSG.setText("Niekas nelaimejo");
+            jLabelMSG.setText("Niekas nelaimėjo");
         }
     }
     
@@ -107,12 +107,12 @@ public class KryziukaiNuliukai extends javax.swing.JFrame {
                         {
                             button.setText("X");
                             button.setForeground(Color.BLUE);
-                           jLabelMSG.setText("O ejimas");
+                           jLabelMSG.setText("O ėjimas");
                             gautiLaimetoja();
                         }else{
                             button.setText("O");
                             button.setForeground(Color.RED);
-                            jLabelMSG.setText("X ejimas");
+                            jLabelMSG.setText("X ėjimas");
                             gautiLaimetoja();
                         }
 
