@@ -123,7 +123,7 @@ public class Store {
             System.out.println(metalList);
         int maximumPrice = 500;
         
-        System.out.println("-----Žiedai, kurių dydžiai yra tarp " + maximumPrice + " eurų");
+        System.out.println("-----Žiedai, kurių kaina iki " + maximumPrice + " eurų");
         print(filterRingsByPrice(maximumPrice));
 
     }
