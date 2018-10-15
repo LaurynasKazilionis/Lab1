@@ -41,7 +41,6 @@ public class CustomerTest{
         Ks.oun(a4);
         Ks.oun(a5);
         Ks.oun(a6);
-        //could have added new parameter to Soldier class named age
         Ks.oun("Average age between next 3 customers " + (((LocalDate.now().getYear() - a4.getBirthYear()) + (LocalDate.now().getYear() - a5.getBirthYear()) + (LocalDate.now().getYear() - a6.getBirthYear())))/3
                 );
     }
