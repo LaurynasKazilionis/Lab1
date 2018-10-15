@@ -130,7 +130,6 @@ public class GreitaveikosTyrimas {
         
          Timekeeper tk = new Timekeeper(tiriamiKiekiai);
         for(int kiekis : tiriamiKiekiai){
-           // generateSoldiers(kiekis);
         tk.start();
         for(int i = 0; i < kiekis;i++)
             aList.add((aList.size() / 2), i);
