@@ -54,9 +54,9 @@ public class Customer implements KTUable<Customer> {
             birthYear= ed.nextInt();
             setHeight(ed.nextDouble());
         } catch (InputMismatchException  e) {
-            Ks.ern("Bad data format about Soldier-> " + dataString);
+            Ks.ern("Bad data format about Customer-> " + dataString);
         } catch (NoSuchElementException e) {
-            Ks.ern("Missing data about Soldier -> " + dataString);
+            Ks.ern("Missing data about Customer -> " + dataString);
         }
     }
     @Override
